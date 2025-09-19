@@ -1,7 +1,7 @@
 
 type ExperienceItem = {
   title: string;
-  date: string;
+  date?: string;
   points: string[];
   company?: string;
   location?: string;
@@ -128,43 +128,43 @@ export const contactInfo: ContactItem[] = [
     label: "Email",
     value: "sheharyarrana2003@gmail.com",
     href: "mailto:sheharyarrana2003@gmail.com",
-    icon: `<Image src="/mail.png" height={10} width={10} alt="Mail" className="invert" />`,
+    icon: "/mail.png",
   },
   {
     label: "LinkedIn",
     value: "Muhammad Sheharyar Shahzad",
     href: "https://www.linkedin.com/in/muhammad-sheharyar-shahzad-rana-5067a4276",
-    icon: `<Image src="/linkedin.png" height={10} width={10} alt="Linkedin" className="invert" />`,
+    icon: "/linkedin.png",
   },
   {
     label: "Instagram",
     value: "flutter-with-sheharyar",
     href: "https://www.instagram.com/flutter_with_sheharyar/",
-    icon: `<Image src="/instagram.png" height={10} width={10} alt="Instagram" className="invert" />`,
+    icon: "/instagram.png"`,
   },
   {
     label: "GitHub",
     value: "sheharyarrana2003",
     href: "https://github.com/sheharyarrana2003",
-    icon: `<Image src="/github.png" height={10} width={10} alt="Github" className="invert" />`,
+    icon: "/github.png",
   },
   {
     label: "LeetCode",
     value: "sheharyarrana2003",
     href: "https://leetcode.com/sheharyarrana2003/",
-    icon: `<Image src="/leetcode.png" height={10} width={10} alt="Leetcode" className="invert" />`,
+    icon: "/leetcode.png",
   },
   {
     label: "Fiverr",
     value: "sheharyarrana2003",
     href: "https://www.fiverr.com/s/xXRyEVa",
-    icon: `<Image src="fiverr.png" height={10} width={10} alt="Fiverr" className="invert" />`,
+    icon: "fiverr.png",
   },
   {
     label: "HackerRank",
     value: "sheharyarrana201",
     href: "https://www.hackerrank.com/profile/sheharyarrana201",
-    icon: `<Image src="/hackerrank.png" height={10} width={10} alt="Hackerrank" className="invert" />`,
+    icon: "/hackerrank.png",
   },
 ];
 
