@@ -86,8 +86,8 @@ const ContactPage = () => {
                   key={index}
                   className="bg-[#111111fa] p-4 rounded-lg border border-[#222222] transition-all duration-200 hover:-translate-y-[2px]"
                 >
-                  <strong className="block mb-1 text-[#FF3B30]">
-                    {item.icon} 
+                  <strong className="flex gap-2 mb-1 text-[#FF3B30]">
+                    <Image src={`${item.icon}`} height={20} width={20} alt={`${item.icon}`} className="invert" />
                     {item.label}
                   </strong>
                   {item.href ? (
