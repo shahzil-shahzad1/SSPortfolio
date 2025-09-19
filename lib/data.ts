@@ -140,7 +140,7 @@ export const contactInfo: ContactItem[] = [
     label: "Instagram",
     value: "flutter-with-sheharyar",
     href: "https://www.instagram.com/flutter_with_sheharyar/",
-    icon: "/instagram.png"`,
+    icon: "/instagram.png",
   },
   {
     label: "GitHub",
