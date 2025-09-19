@@ -216,7 +216,7 @@ export const skills = [
   { name: "C++", icon: "/skills/c.png" },
   { name: "FlutterFlow", icon: "/skills/flutterflow.png" },
   { name: "SQL", icon: "/skills/sql.png" },
-  { name: "Git & Github", icon: "/skills/github.png" },
+  { name: "Git & Github", icon: "/skills/git.png" },
   { name: "Firebase", icon: "/skills/firebase.png" },
   { name: "Supabase", icon: "/skills/supabase.png" }
 ];
@@ -227,8 +227,8 @@ export const certifications = [
   { name: "Python Essentials – Cisco", icon: "/certificates/PythonEssentials.JPG" },
   { name: "C++ Programming – Saylor Academy", icon: "/certificates/CPlusPlus.PNG" },
   { name: "Intro to LLMs – Google Cloud", icon: "/certificates/google1.jpg" },
-  { name: "Intro to Generative AI – Google Cloud", icon: "/certificates/google2.jpg" },
-  { name: "Intro to Responsible AI", icon: "/certificates/google3.jpg" },
+  { name: "Intro to Generative AI – Google Cloud", icon: "/certificates/google2.JPG" },
+  { name: "Intro to Responsible AI", icon: "/certificates/google3.JPG" },
   { name: "BlockChain Integration", icon: "/certificates/blockchain.PNG" },
   // add more with same format
 ];
