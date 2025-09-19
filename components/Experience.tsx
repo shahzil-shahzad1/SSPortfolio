@@ -27,10 +27,10 @@ const ExperiencePage = () => (
                 <h3 className="text-base sm:text-lg font-bold text-[#FF3B30] break-words">
                   {item.title}
                 </h3>
-                <div className="flex flex-col sm:flex-row sm:items-center gap-1 sm:gap-4 text-sm text-[#B3B3B3] mb-4">
+{/*                 <div className="flex flex-col sm:flex-row sm:items-center gap-1 sm:gap-4 text-sm text-[#B3B3B3] mb-4">
                   <div>{item.date}</div>
                   {item.location && <div>{item.location}</div>}
-                </div>
+                </div> */}
                 <ul className="list-disc list-inside space-y-1 text-gray-200 text-sm sm:text-[0.95rem] leading-relaxed">
                   {item.points.map((point, i) => (
                     <li key={i} className="break-words">
